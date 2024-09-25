@@ -21,7 +21,7 @@ require (
 	github.com/stretchr/testify v1.8.1
 	golang.org/x/crypto v0.7.0
 	golang.org/x/net v0.8.0
-	golang.org/x/oauth2 v0.6.0
+	golang.org/x/oauth2 v0.23.0
 	google.golang.org/api v0.112.0
 	gopkg.in/urfave/cli.v1 v1.20.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -29,8 +29,7 @@ require (
 
 require (
 	cloud.google.com/go v0.110.0 // indirect
-	cloud.google.com/go/compute v1.18.0 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	cloud.google.com/go/iam v0.12.0 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/bmatcuk/doublestar v1.3.4 // indirect
