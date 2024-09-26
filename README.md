@@ -1,6 +1,6 @@
-| :warning: WARNING                             |
-| :-------------------------------------------- |
-| Unfortunately, this project is no longer actively maintained. If you do use it, consider forking this project. |
+| :warning: WARNING                                                                                                                                                                                                                                                                                                                                                  |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| This repository is a fork of the original [control-tower](https://github.com/EngineerBetter/control-tower) by EngineerBetter, which is no longer actively maintained. This fork is maintained by Softwire for our own internal purposes. While we continue to make updates, we offer no warranties, guarantees, or official support for external use. If you decide to use this fork, you do so at your own risk. |
 
 
 # Control Tower
