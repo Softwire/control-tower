@@ -10,6 +10,7 @@ To build and test you'll need:
 
 - Golang 1.16+
 - [`control-tower-ops`](https://github.com/EngineerBetter/control-tower-ops) cloned at the same level as this repository (i.e. a sibling directory). Check the latest release of `control-tower` for the appropriate tag of `control-tower-ops`.
+- Control-tower-ops points to a download of 'bosh-cli' that no longer exists. You need to manually edit the "bosh-cli" values in `createenv-dependencies-and-cli-versions-aws.json`/`createenv-dependencies-and-cli-versions-gcp.json` to a valid download path before compiling the control-tower binary. E.g. `https://github.com/cloudfoundry/bosh-cli/releases/download/v7.2.0/bosh-cli-7.2.0-linux-amd64`
 
 ### Building locally
 

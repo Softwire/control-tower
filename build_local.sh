@@ -2,7 +2,7 @@
 
 set -eu
 
-version=0.32.0
+version=0.32.2
 cp ../control-tower-ops/manifest.yml opsassets/assets/
 cp -R ../control-tower-ops/ops opsassets/assets/
 cp ../control-tower-ops/createenv-dependencies-and-cli-versions-aws.json opsassets/assets/
