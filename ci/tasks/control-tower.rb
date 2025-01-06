@@ -6,14 +6,14 @@ class ControlTower < Formula
 
   if OS.mac?
     if RUBY_PLATFORM.include?("arm64")
-      url "https://github.com/EngineerBetter/control-tower/releases/download/#{version}/control-tower-darwin-arm64"
+      url "https://github.com/Softwire/control-tower/releases/download/#{version}/control-tower-darwin-arm64"
       sha256 "__darwin_cli_arm64_sha256__"
     else
-      url "https://github.com/EngineerBetter/control-tower/releases/download/#{version}/control-tower-darwin-amd64"
+      url "https://github.com/Softwire/control-tower/releases/download/#{version}/control-tower-darwin-amd64"
       sha256 "__darwin_cli_amd64_sha256__"
     end
   elsif OS.linux?
-    url "https://github.com/EngineerBetter/control-tower/releases/download/#{version}/control-tower-linux-amd64"
+    url "https://github.com/Softwire/control-tower/releases/download/#{version}/control-tower-linux-amd64"
     sha256 "__linux_cli_amd64_sha256__"
   end
 

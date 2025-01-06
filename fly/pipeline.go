@@ -23,7 +23,7 @@ resources:
   icon: github
   check_every: 30m
   source:
-    user: engineerbetter
+    user: softwire
     repository: control-tower
     pre_release: true
 - name: every-day
