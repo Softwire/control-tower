@@ -122,12 +122,12 @@ func instances(boshCLI boshcli.ICLI, ip, password, ca string) ([]Instance, error
 }
 
 type external_tls_config struct {
-	external_tls external_tls `yaml:external_tls`
+	External_tls external_tls `yaml:"external_tls"`
 }
 
 type external_tls struct {
-	certificate string `yaml:"certificate"`
-	private_key string `yaml:"private_key"`
+	Certificate string `yaml:"certificate"`
+	Private_key string `yaml:"private_key"`
 }
 
 func saveFilesToWorkingDir(workingdir workingdir.IClient, provider iaas.Provider, creds []byte, external_tls_certificate string, external_tls_private_key string) error {
@@ -142,9 +142,9 @@ func saveFilesToWorkingDir(workingdir workingdir.IClient, provider iaas.Provider
 
 	// write to yaml file external_tls.certificate, keys are external_tls.certificate external_tls.private_key
 	external_tls_config := external_tls_config{
-		external_tls: external_tls{
-			certificate: external_tls_certificate,
-			private_key: external_tls_private_key,
+		External_tls: external_tls{
+			Certificate: external_tls_certificate,
+			Private_key: external_tls_private_key,
 		},
 	}
 	external_tls_config_yaml, err := yaml.Marshal(external_tls_config)
